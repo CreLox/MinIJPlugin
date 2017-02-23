@@ -1,6 +1,6 @@
 /*
 * SelectSquareROI.java
-* Author: Chu Chen (chenchu0203<at>gmail<dot>com)
+* Author: Chu Chen
 * Date: Feb 23, 2017
 */
 
