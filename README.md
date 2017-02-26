@@ -1,7 +1,7 @@
 # Minimal ImageJ GUI Plugin
 This is an ImageJ plugin (with a GUI) that allows users to select a square ROI with specified coordinates. More importantly, this is a template of a (really) minimal ImageJ plugin.
 
-Below is a step-by-step instruction to make a functional plugin without the tedium of configuring an IDE - a text editor like Vim/Emacs/Gedit/Notepad++ will do the job as long as you know how to code in java [these steps are for Linux/macOS or other Unix-like OS; use Command Prompt/cmd instead of Terminal (since there is no such thing) in Windows]:
+Below is a step-by-step instruction to make a functional plugin without the tedium of configuring an IDE - a text editor like Vim/Emacs/Gedit/Notepad++ will do the job as long as you know how to code in java [these steps are for Unix-like OS's (macOS/Linux distributions/...); use Command Prompt/cmd instead of Terminal (since there is no such thing) in Windows]:
 
 1. Download this repository entirely and edit the source code (`SelectSquareROI.java`) and the configuration file (`plugins.config` - do not change this filename) accordingly.
 
