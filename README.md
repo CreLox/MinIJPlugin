@@ -7,7 +7,9 @@ Below is a step-by-step instruction to make a functional plugin without the tedi
 
 2. Prepare dependency package(s) (here `ij.jar` is needed, which could be downloaded from [here](https://wsr.imagej.net/jars)) in the same folder as our source code.
 
-3. Go to Terminal (bash) and compile our source code into a java class file:```javac -classpath ij.jar SelectSquareROI.java```(Note: edit the filename accordingly)
+3. Go to Terminal (bash) and compile our source code into a java class file:
+```javac -classpath ij.jar SelectSquareROI.java```
+3. (Note: edit the filename accordingly)
 
 4. Compress the configuration file and the compiled java class file into one java archive file (`Select_Square_ROI.jar`):```jar -cfe Select_Square_ROI.jar SelectSquareROI SelectSquareROI.class plugins.config```(Note: edit the filenames and the class name(s) accordingly; include an underscore in the filename of the java archive file)
 
