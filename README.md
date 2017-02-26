@@ -21,6 +21,6 @@ jar -cfe Select_Square_ROI.jar SelectSquareROI SelectSquareROI.class plugins.con
 
 e. Move our java archive file into the `plugins` subfolder of ImageJ.
 
-f. Run `ImageJ` and test the plugin. There should be a corresponding option in the menu if the configuration file is written correctly.
+f. Run ImageJ and test the plugin. There should be a corresponding option in the menu if the configuration file is written correctly.
 
 g. (Optional) Set a shortcut for our plugin by "`Plugins` > `Shortcuts` > `Add Shortcut...`".
