@@ -11,8 +11,8 @@ Below is a step-by-step instruction to make a functional plugin without the tedi
 
 4. Compress the configuration file and the compiled java class file into one java archive file (`Select_Square_ROI.jar`): `jar -cfe Select_Square_ROI.jar SelectSquareROI SelectSquareROI.class plugins.config` (Note: edit the filenames and the class name(s) accordingly; include an underscore in the filename of the java archive file)
 
-5. Move our java archive file into the `plugins` subfolder of ImageJ or by running the ImageJ command: "`Plugins` > `Install Plugin...`".
+5. Move our java archive file into the `plugins` subfolder of ImageJ or run the ImageJ command: "`Plugins` > `Install Plugin...`".
 
-6. Run ImageJ and test the plugin. There should be a corresponding option in the menu if the configuration file is written correctly.
+6. Restart ImageJ and test the plugin. There should now be a corresponding option in the menu if the configuration file is written correctly.
 
 7. (Optional) Set a shortcut for our plugin by running the ImageJ command: "`Plugins` > `Shortcuts` > `Add Shortcut...`".
