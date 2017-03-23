@@ -17,4 +17,4 @@ Below is a step-by-step instruction to make a functional plugin without the tedi
 
 7. Restart ImageJ and test the plugin. There should now be a corresponding option in the menu if the configuration file is written correctly.
 
-8. (Optional) Set a shortcut for our plugin by running the ImageJ command: "`Plugins` > `Shortcuts` > `Add Shortcut...`".
+8. (Optional) set a shortcut for our plugin by running the ImageJ command: "`Plugins` > `Shortcuts` > `Add Shortcut...`".
