@@ -9,7 +9,7 @@ Below is a step-by-step instruction to make a functional plugin without the tedi
 
 3. [Install JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-4. Go to Terminal and compile our source code into a java class file: `javac -classpath ij.jar SelectSquareROI.java` (Note: edit the filename accordingly).
+4. Go to Terminal and compile our source code into a java class file: `javac -classpath ij.jar SelectSquareROI.java` (Note: edit the filename accordingly). If you want to check the version of a java class file and determine its compatibility, you might find [this thread](https://stackoverflow.com/questions/27065/tool-to-read-and-display-java-class-versions) helpful.
 
 5. Compress the configuration file and the compiled java class file into one java archive file (`Select_Square_ROI.jar`): `jar -cfe Select_Square_ROI.jar SelectSquareROI SelectSquareROI.class plugins.config` (Note: edit the filenames and the class name(s) accordingly; include an underscore in the filename of the java archive file).
 
