@@ -7,7 +7,7 @@ Below is a step-by-step instruction to make a functional plugin without the tedi
 
 2. Prepare dependency package(s) (here `ij.jar` is needed, which could be downloaded from [here](https://wsr.imagej.net/jars)) in the same folder as our source code.
 
-3. [Install JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html). On Windows, [add](https://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html#path) the folder containing all executables to the `Path` environment variable.
+3. [Install JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html). On Windows, [add](https://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html#path) the folder containing all executables to the `PATH` environment variable.
 
 4. Go to Terminal and compile our source code into a java class file: `javac -classpath ij.jar SelectSquareROI.java` (Note: edit the filename accordingly). If you want to check the version of a java class file and determine its compatibility, you might find [this thread](https://stackoverflow.com/questions/27065/tool-to-read-and-display-java-class-versions) helpful.
 
